@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Spectral:wght@400;600&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Spectral', serif; */
+body {
+    height: 100%;
+    max-width: 100%;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 35%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.headerli {
+    display: flex;
+    align-items: center;
+    white-space:nowrap;
+}
+
+#button1 {
+    margin: 20px 0;
+    white-space:nowrap;
+}
+
+nav div {
+    
+
+    display: flex;
+    align-items:center;
+}
+
+hr {
+    margin: 0px;
+}
+
+header {
+    padding: 0 10% ;
+    background-color: #ffc017;
+    height: 75px;
+    position:sticky;
+    top: 0px;
+    border-bottom: 1px solid black;
+    
+}
+
+#titlediv {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #ffc017;
+    width: 45%;
+    margin-left: 10%;
+    justify-content: space-around;
+    height: 80%;
+    padding: 2% 0;
+
+}
+
+.button {
+    background-color: #191919;
+    color: white;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Spectral', serif;
+    white-space: nowrap;
+}
+
+#titlediv p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    white-space: nowrap;
+    
+}
+
+ #section1 {
+    background-color: #ffc017;
+    height: 320px;
+}
+
+#button2 {
+    width: 50%;
+    height: 15%;
+
+}
+
+
+#trendingdiv {
+    display: flex;
+    align-items: center;
+    max-width: 40%;
+}
+
+
+#section2 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 33%;
+    display: flex;
+    margin: 20px 0; 
+    /* la 1 misura è alto e basso, la 2 destra e sinistra */
+}
+
+.esterno {
+    display: flex;
+    flex-direction: column;
+}
+
+.linea1 p {
+    padding: 10px;
+}
+
+
+.linea1,.linea3 {
+    display: flex;
+}
+
+.linea2 {
+    
+    font-weight: 700;
+}
+
+.linea1,.linea2,.linea3 {
+    padding: 2%;
+}
+
+
+.profiloimg {
+    width: 20px;
+    border-radius: 100% ;
+    height: 20px;
+}
+
+.translucent {
+    font-size: 2em;
+    opacity: 20%;
+}
+
+
